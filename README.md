@@ -97,6 +97,19 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
+
+# Calendar Application for Communication Tracking
+
+This is a calendar application designed for communication tracking.
+
+![App Screenshot]![image](https://github.com/user-attachments/assets/7f5de77c-280e-439d-8cb3-bf069ebaa25c)
+
+
+## Features
+- User-friendly interface
+- Communication tracking
+- Real-time calendar view
+
 ## Contact
 
 For any queries or suggestions, feel free to reach out:
