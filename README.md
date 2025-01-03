@@ -18,7 +18,8 @@ The Calendar Application for Communication Tracking is a React-based tool design
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/ashuisashish/Calendar-Application-for-Communication-Tracking.git
+git clone https://github.com/anushasekhar03/Calendar-Application-for-Communication-Tracking.git
+
 ```
 
 ### Install Dependencies
@@ -33,11 +34,7 @@ npm install
 npm run dev
 ```
 
-### Live Deployment
 
-[Calendar Application on Netlify] ( https://clever-entremet-81d0cf.netlify.app )
-
----
 
 ## Objective
 
