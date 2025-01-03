@@ -1,135 +1,104 @@
-<<<<<<< HEAD
 # Calendar Application for Communication Tracking
-
-## Overview
-
-The Calendar Application for Communication Tracking is a React-based tool designed to help companies maintain strong professional relationships by accurately recording interactions with other organizations. This application ensures timely and consistent follow-ups and provides a centralized platform for managing past and future communications efficiently.
-
-## Key Features
-
-- **Admin Module**: Setup and manage companies and communication parameters.
-- **User Module**: Visualize, manage, and perform communication tasks.
-- **Optional Reporting and Analytics Module**: Gain actionable insights into communication patterns.
-
----
-
-## Getting Started
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/anushasekhar03/Calendar-Application-for-Communication-Tracking.git
-
-```
-
-### Install Dependencies
-
-```bash
-npm install
-```
-
-### Start the Application
-
-```bash
-npm run dev
-```
-
-
 
 ## Objective
 
-This application aims to:
-
-- Log past interactions and plan future communications.
-- Manage engagement frequency based on predefined schedules.
-- Provide a centralized platform for communication tracking.
+This application helps organizations maintain and track professional interactions with other companies. It centralizes communication records, enables timely follow-ups, and provides a structured interface for managing past and future engagements.
 
 ---
 
-## Modules and Features
+## Features
 
 ### Admin Module
-
-#### Company Management
-
-Admins can:
-
-- Add, edit, and delete companies with the following details:
-  - Name
-  - Location
-  - LinkedIn Profile
-  - Emails
-  - Phone Numbers
-  - Comments
-  - Communication Periodicity (e.g., every 2 weeks)
-
-#### Communication Method Management
-
-Admins can define available communication methods, including:
-
-- Name (e.g., "Visit")
-- Description (e.g., "Visit to company premises")
-- Sequence (order of communication)
-- Mandatory Flag (indicates if the method is mandatory)
-
-_Default Communication Methods (in order):_
-1. LinkedIn Post
-2. LinkedIn Message
-3. Email
-4. Phone Call
-5. Other
+- **Company Management**: Add, edit, and delete company details, including names, locations, LinkedIn profiles, emails, and phone numbers.
+- **Communication Method Management**: Define and sequence communication methods (e.g., LinkedIn Post, Email, Phone Call).
 
 ### User Module
-
-#### Dashboard
-
-- **Grid View**: Displays each company with:
-  - Company Name
-  - Last Five Communications
-  - Next Scheduled Communication
-- **Color-Coded Highlights**:
-  - Red: Overdue communication
-  - Yellow: Communication due today
-
-#### Interactive Features
-
-- **Hover Effect**: Tooltip displays notes or comments for completed communications.
-- **Communication Action**:
-  - Select one or multiple companies.
-  - Log a new communication with type, date, and notes.
-
-#### Notifications
-
-- Overdue Communications Grid
-- Today's Communications Grid
-- Notification badge with overdue and due counts
-
-#### Calendar View
-
-- View past communications and manage upcoming interactions.
+- **Dashboard**: 
+  - Grid view for tracking companies, last five communications, and next scheduled communications.
+  - Color-coded highlights for overdue (red) and due-today (yellow) tasks.
+- **Communication Logging**:
+  - Record communication type, date, and notes.
+  - Reset task highlights after logging.
+- **Notifications**: Display overdue and today's communication tasks with a badge icon for counts.
+- **Calendar View**: Visualize past and upcoming communications.
 
 ### Reporting and Analytics Module (Optional)
-
-- **Communication Frequency Report**:
-  - Visual representation (bar chart, pie chart) of communication methods.
-  - Filters by company, date range, or method.
-- **Engagement Effectiveness Dashboard**:
-  - Track response rates by communication methods.
-- **Overdue Communication Trends**:
-  - Trendline or heatmap of overdue communications over time.
-- **Downloadable Reports**: Export data in PDF or CSV formats.
-- **Real-Time Activity Log**: Live feed of communication activities.
+- Communication frequency and effectiveness reports.
+- Overdue communication trends.
+- Downloadable reports in PDF/CSV formats.
+- Real-time activity log.
 
 ---
 
-## Application Architecture
+## Tech Stack
 
-### Technologies Used
+### Frontend
+- **React.js**
+- **Tailwind CSS**
+- **FullCalendar** (for calendar UI)
 
-- **Frontend**: React.js
-- **Backend**: Node.js
-- **Database**: MongoDB
-- **Deployment**: Github
-=======
-# Calendar-Application-for-Communication-Tracking
->>>>>>> 9e894df366bd511fef109e5050796d1ebf26585a
+### Deployment
+- **Frontend**: Vercel, Netlify, or GitHub Pages
+
+---
+
+## Prerequisites
+
+- Node.js and npm
+
+---
+
+## Installation
+
+### Clone the Repository
+```bash
+git clone https://github.com/anushasekhar03/Calendar-Application-for-Communication-Tracking.git
+cd Calendar-Application-for-Communication-Tracking
+```
+
+### Frontend Setup
+1. Install dependencies:
+   ```bash
+   npm install
+   ```
+2. Start the frontend application:
+   ```bash
+   npm start
+   ```
+3. Access the application at `http://localhost:3000`.
+
+---
+
+## Deployment
+
+1. Build the frontend:
+   ```bash
+   npm run build
+   ```
+2. Deploy the built files using Vercel, Netlify, or GitHub Pages.
+
+---
+
+## Usage
+
+### Admin Module
+- Add company details and communication methods through the admin interface.
+
+### User Module
+- Log communications and track tasks through the dashboard and calendar.
+- Stay updated with notifications for overdue and due-today tasks.
+
+---
+
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## Contact
+
+For any queries or suggestions, feel free to reach out:
+- **Email**: anushasekhar302002@gmail.com
+- **GitHub**: [anushasekhar03](https://github.com/anushasekhar03)
