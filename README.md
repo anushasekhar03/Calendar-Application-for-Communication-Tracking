@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Calendar Application for Communication Tracking
 
 ## Overview
@@ -132,3 +133,6 @@ _Default Communication Methods (in order):_
 - **Backend**: Node.js
 - **Database**: MongoDB
 - **Deployment**: Github
+=======
+# Calendar-Application-for-Communication-Tracking
+>>>>>>> 9e894df366bd511fef109e5050796d1ebf26585a
