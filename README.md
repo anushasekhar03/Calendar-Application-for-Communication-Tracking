@@ -97,12 +97,22 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
+## Features
+- User-friendly interface
+- Communication tracking
+- Real-time calendar view
+
 
 # Calendar Application for Communication Tracking
 
 This is a calendar application designed for communication tracking.
 
-![App Screenshot]![image](https://github.com/user-attachments/assets/7f5de77c-280e-439d-8cb3-bf069ebaa25c)
+![image](https://github.com/user-attachments/assets/7f5de77c-280e-439d-8cb3-bf069ebaa25c)
+![image](https://github.com/user-attachments/assets/f1e3670b-0d05-4cb0-be3e-3c21c93df3a0)
+![image](https://github.com/user-attachments/assets/1e108da1-09cc-4fd9-95b9-a80dd909c395)
+![image](https://github.com/user-attachments/assets/535d1952-4f17-4b00-a85c-d3f31206caf8)
+![image](https://github.com/user-attachments/assets/34adb77a-30e6-46bc-a8c6-cc29be955902)
+![image](https://github.com/user-attachments/assets/505cb4cc-de93-4551-b448-655369d814b9)
 
 
 ## Features
@@ -110,8 +120,3 @@ This is a calendar application designed for communication tracking.
 - Communication tracking
 - Real-time calendar view
 
-## Contact
-
-For any queries or suggestions, feel free to reach out:
-- **Email**: anushasekhar302002@gmail.com
-- **GitHub**: [anushasekhar03](https://github.com/anushasekhar03)
