@@ -115,8 +115,3 @@ This is a calendar application designed for communication tracking.
 ![image](https://github.com/user-attachments/assets/505cb4cc-de93-4551-b448-655369d814b9)
 
 
-## Features
-- User-friendly interface
-- Communication tracking
-- Real-time calendar view
-
